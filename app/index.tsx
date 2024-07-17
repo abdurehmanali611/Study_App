@@ -25,8 +25,8 @@ const Login = () => {
 
   const handleLog = () => {
     
-    credentials.Email == '' || credentials.Password == '' || credentials.Email.includes('@') == false || credentials.Password.length < 6 ? 
-    alert('Please Enter the required Fields'):
+    // credentials.Email == '' || credentials.Password == '' || credentials.Email.includes('@') == false || credentials.Password.length < 6 ? 
+    // alert('Please Enter the required Fields'):
     navigation.navigate('(tabs)')
 
     setCredentials({
